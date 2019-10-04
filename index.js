@@ -39,7 +39,7 @@ function implementsInterface(object, objInterface) {
     }
     return true;
 }
-exports.default = implementsInterface;
+exports.implementsInterface = implementsInterface;
 function arrayMatchesInterface(actualArray, allowedTypesForArray) {
     if (!Array.isArray(actualArray) || !Array.isArray(allowedTypesForArray)) {
         return false;

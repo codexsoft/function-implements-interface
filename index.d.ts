@@ -1,4 +1,4 @@
-export default function implementsInterface<T>(object: {
+export declare function implementsInterface<T>(object: {
     [index: string]: unknown;
 } | any, objInterface: {
     [index: string]: any;

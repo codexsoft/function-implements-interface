@@ -1,6 +1,6 @@
 import {includes} from 'lodash';
 
-export default function implementsInterface<T>(object: {[index: string]: unknown}|any, objInterface: {[index: string]: any;}): object is T {
+export function implementsInterface<T>(object: {[index: string]: unknown}|any, objInterface: {[index: string]: any;}): object is T {
 
     if (typeof object !== 'object' || typeof objInterface !== 'object') {
         return false;
