@@ -39,7 +39,7 @@ function implementsInterface(object, objInterface) {
     }
     return true;
 }
-exports.implementsInterface = implementsInterface;
+exports.default = implementsInterface;
 function arrayMatchesInterface(actualArray, allowedTypesForArray) {
     if (!Array.isArray(actualArray) || !Array.isArray(allowedTypesForArray)) {
         return false;
@@ -87,5 +87,4 @@ function arrayMatchesInterface(actualArray, allowedTypesForArray) {
         return lodash_1.includes(allowedTypesForArray, actualArrayItemType);
     });
 }
-exports.arrayMatchesInterface = arrayMatchesInterface;
 //# sourceMappingURL=index.js.map

@@ -1,6 +1,6 @@
 import {includes} from 'lodash';
 
-export function implementsInterface<T>(object: {[index: string]: unknown}|any, objInterface: {[index: string]: any;}): object is T {
+export default function implementsInterface<T>(object: {[index: string]: unknown}|any, objInterface: {[index: string]: any;}): object is T {
 
     if (typeof object !== 'object' || typeof objInterface !== 'object') {
         return false;
@@ -46,7 +46,7 @@ export function implementsInterface<T>(object: {[index: string]: unknown}|any, o
     return true;
 }
 
-export function arrayMatchesInterface(actualArray: unknown[], allowedTypesForArray: unknown[]): boolean {
+function arrayMatchesInterface(actualArray: unknown[], allowedTypesForArray: unknown[]): boolean {
 
     if (!Array.isArray(actualArray) || !Array.isArray(allowedTypesForArray)) {
         return false;
