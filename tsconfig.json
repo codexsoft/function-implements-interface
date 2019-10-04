@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+//    "module": "es6",
+    "module": "commonjs",
+//    "module": "system",
+    "target": "es5",
+//    "preserveConstEnums": true,
+    "sourceMap": true,
+//    "jsx": "react",
+//    "jsxFactory": "Array",
+//    "esModuleInterop": true,
+//    "noImplicitAny": true,
+    "strict": true,
+//    "outFile": "dist/index.min.js",
+    "lib": [
+//          "dom"
+          "es2015"
+    ]
+  },
+  "include": [
+//    "./src/**/*"
+    "./src/index.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

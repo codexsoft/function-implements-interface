@@ -1,0 +1,39 @@
+{
+  "name": "@codexsoft/function-implements-interface",
+  "version": "1.0.0",
+  "description": "Allows runtime-check that object implements an interface (missing functionality in TypeScript)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codexsoft/function-implements-interface.git"
+  },
+  "keywords": [
+    "typescript",
+    "interface",
+    "implements",
+    "instanceof",
+    "runtime"
+  ],
+  "author": "Kozubskiy Dmitriy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codexsoft/function-implements-interface/issues"
+  },
+  "homepage": "https://github.com/codexsoft/function-implements-interface#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/lodash": "^4.14.141",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
+  }
+}
