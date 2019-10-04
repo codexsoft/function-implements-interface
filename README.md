@@ -25,6 +25,8 @@ interface objects are regular javascript objects where values are expected types
 
 `x: ["number", "string"]` will expect that x is number OR string
 
+`x: {y: "number", z: "string""}` will expect that x is object and implements provided interface structure (recursive)
+
 note, that in js every array is object, but not every object is array.
 
 for typescript 
