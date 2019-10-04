@@ -1,6 +1,6 @@
 {
   "name": "@codexsoft/function-implements-interface",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Allows runtime-check that object implements an interface (missing functionality in TypeScript)",
   "main": "index.js",
   "directories": {
