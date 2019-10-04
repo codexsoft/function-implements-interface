@@ -1,28 +1,15 @@
 {
   "compilerOptions": {
-//    "module": "es6",
-//    "module": "es2015",
-//    "module": "umd",
     "module": "commonjs",
-//    "module": "system",
     "target": "es5",
-//    "preserveConstEnums": true,
     "sourceMap": true,
-//    "jsx": "react",
-//    "jsxFactory": "Array",
-//    "esModuleInterop": true,
-//    "noImplicitAny": true,
     "strict": true,
-//    "outFile": "dist/index.min.js",
     "lib": [
           "dom",
           "es2015"
-//          "es6"
     ]
   },
   "include": [
-//    "./src/**/*"
-//    "./src/index.ts"
     "./index.ts"
   ],
   "exclude": [
